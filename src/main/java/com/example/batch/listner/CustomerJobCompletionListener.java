@@ -1,4 +1,4 @@
-package com.example.demo.listner;
+package com.example.batch.listner;
 
 
 import org.slf4j.Logger;
@@ -7,10 +7,9 @@ import org.springframework.batch.core.BatchStatus;
 import org.springframework.batch.core.JobExecution;
 import org.springframework.batch.core.listener.JobExecutionListenerSupport;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
-import com.example.demo.repository.CustomerRepository;
+import com.example.batch.repository.CustomerRepository;
 
 
 @Component

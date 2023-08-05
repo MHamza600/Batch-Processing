@@ -1,9 +1,10 @@
-package com.example.demo.processor;
+package com.example.batch.processor;
 
 import org.springframework.batch.item.ItemProcessor;
 
-import com.example.demo.model.Customer;
-import com.example.demo.model.User;
+import com.example.batch.model.Customer;
+import com.example.batch.model.User;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,4 +1,4 @@
-package com.example.demo.configs;
+package com.example.batch.configs;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.JobExecutionListener;
@@ -10,8 +10,9 @@ import org.springframework.batch.core.launch.support.RunIdIncrementer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import com.example.demo.listner.*;
-import com.example.demo.step.*;
+
+import com.example.batch.listner.*;
+import com.example.batch.step.*;
 
 @Configuration
 @EnableBatchProcessing

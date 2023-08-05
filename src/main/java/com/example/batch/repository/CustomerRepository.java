@@ -1,8 +1,8 @@
-package com.example.demo.repository;
+package com.example.batch.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.model.Customer;
+import com.example.batch.model.Customer;
 
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
 

@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.batch.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

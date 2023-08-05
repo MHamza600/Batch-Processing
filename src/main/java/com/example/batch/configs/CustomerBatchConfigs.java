@@ -1,4 +1,4 @@
-package com.example.demo.configs;
+package com.example.batch.configs;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -21,11 +21,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.core.io.ClassPathResource;
 
-import com.example.demo.listner.JobCompletionNotificationListener;
-import com.example.demo.model.Customer;
-import com.example.demo.model.User;
-import com.example.demo.processor.CustomerItemProcessor;
-import com.example.demo.repository.CustomerRepository;
+import com.example.batch.listner.JobCompletionNotificationListener;
+import com.example.batch.model.Customer;
+import com.example.batch.model.User;
+import com.example.batch.processor.CustomerItemProcessor;
+import com.example.batch.repository.CustomerRepository;
 
 @Configuration // Informs Spring that this class contains configurations
 @EnableBatchProcessing // Enables batch processing for the application

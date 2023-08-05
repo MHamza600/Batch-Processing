@@ -1,4 +1,4 @@
-package com.example.demo.configs;
+package com.example.batch.configs;
 
 import javax.sql.DataSource;
 
@@ -18,9 +18,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 
-import com.example.demo.listner.*;
-import com.example.demo.model.User;
-import com.example.demo.processor.UserItemProcessor;
+import com.example.batch.listner.*;
+import com.example.batch.model.User;
+import com.example.batch.processor.UserItemProcessor;
 
 import org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper;
 import org.springframework.batch.item.file.transform.DelimitedLineTokenizer;
